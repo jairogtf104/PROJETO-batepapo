@@ -1,0 +1,28 @@
+@media (max-width: 650px) {
+    .conteudo{
+        background-color: red;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .topo{
+        background-color: blue;
+        height: 50%;
+        width: 50%;
+    }
+
+    .topo > img {
+        height: 50px;
+    }
+
+    ion-icon {
+        height: 60px;
+    }
+    .bate-papo{
+        background-color: yellow;
+        height: 50%;
+        margin-top: 1%;
+    }
+}
