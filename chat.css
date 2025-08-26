@@ -1,7 +1,7 @@
 @media (max-width: 650px) {
     .conteudo{
         background-color: red;
-        height: 75%;
+        height: 500px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -9,23 +9,28 @@
     }
     .topo{
         background-color: blue;
-        height: 50%;
-        width: 50%;
+        height: 20%;
+        width: 100%;
         display: flex;
         justify-content:space-between;
         align-items: center;
     }
 
     .topo > img {
-        height: 50px;
+        height: 60%;
+
+        ion-icon{
+            height: 10%;
+        }
     }
 
-    ion-icon > img {
-        height: 40px;
+    ion-icon{
+        height: 10%;
     }
     .bate-papo{
         background-color: yellow;
-        height: 50%;
+        height: 60%;
+        width: 100%;
         margin-top: 1%;
         font-family: "Roboto", sans-serif;
     }
@@ -40,5 +45,18 @@
     }
     .caixa > p{
         font-size: 20px;
+    }
+    .mensagem{
+        background-color: brown;
+        height: 20%;
+        width: 100%;
+        margin-top: 10%;
+        right: 200px;
+        bottom: 200px;
+        font-size: 30px;
+    }
+
+    .mensagem > p{
+        margin-top: 1%;
     }
 }
