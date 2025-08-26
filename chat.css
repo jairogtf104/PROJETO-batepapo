@@ -11,18 +11,34 @@
         background-color: blue;
         height: 50%;
         width: 50%;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
     }
 
     .topo > img {
         height: 50px;
     }
 
-    ion-icon {
-        height: 60px;
+    ion-icon > img {
+        height: 40px;
     }
     .bate-papo{
         background-color: yellow;
         height: 50%;
         margin-top: 1%;
+        font-family: "Roboto", sans-serif;
+    }
+    .caixa{
+        background-color: green;
+        height: 20%;
+        margin-top: 1%;
+        font-family: "Roboto", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .caixa > p{
+        font-size: 20px;
     }
 }
