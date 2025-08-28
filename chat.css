@@ -36,14 +36,15 @@
     }
     .caixa{
         background-color: green;
-        height: 20%;
+        height: 100%;
         margin-top: 1%;
         font-family: "Roboto", sans-serif;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .caixa > p{
+    li > p{
+        margin-top: 2%;
         font-size: 20px;
     }
     .mensagem{
