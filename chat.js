@@ -7,7 +7,7 @@ function usuario() {
     while (usuarios.includes(nome)) {
 
         nome = prompt("Esse nome já existe. Escolha outro nome:");
-        
+
     }
     
     usuarios.push(nome);
@@ -16,3 +16,4 @@ function usuario() {
 }
 
 usuario();
+console.log(axios);
